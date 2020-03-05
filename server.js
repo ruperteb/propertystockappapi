@@ -3,7 +3,6 @@ const cors = require('cors')
 
 var mongoose = require('mongoose');
 
-const MainList = require("./Controllers/Mainlist");
 
 //Set up default mongoose connection
 var mongoDB = 'mongodb://Rupert:fishes12@ds259738.mlab.com:59738/heroku_h375wbjc';
